@@ -2,7 +2,7 @@
 
 ## File Types & Dependencies (if required)
 
-* Q1. 
+* Q1. SQL file
 * Q2. Python file
 * Q3. Python file
 * Q4. Python file
