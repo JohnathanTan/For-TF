@@ -8,6 +8,9 @@ With the historical simulation method,
 the VaR of the base portfolio is 1.4259%
 the CVaR of the base portfolio is 2.1256%
 
+
+
+
 Part b.
 With the parametric method,
 the VaR of the base portfolio is 1.4196%

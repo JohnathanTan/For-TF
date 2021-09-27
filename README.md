@@ -46,7 +46,7 @@ Optimal weights are saved in a optimal_weights.json file.
 Plots will be saved as jpg files.
 
 Q5. 
-I was not if there was a requirement for a particular type of script. I decided to do it via a shell script without using any other downloaded libraries. Within the shell script there are only git & bash commands. 
+I was not sure if there was a requirement for a particular type of script. I decided to do it via a shell script without using any other downloaded libraries. Within the shell script there are only git & bash commands. 
 
 To be frank, I have little experience with shell scripting so there might be some inefficient logic within the script (I might be using the wrong terminologies too). But, I am sure that I got the right outputs for the task at hand.
 

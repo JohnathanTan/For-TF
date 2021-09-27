@@ -7,6 +7,10 @@ import pandas as pd
 import scipy.stats as st
 from scipy import optimize
 import json
+import os
+
+# Change directory
+os.chdir('D:\GitHub Repo\Interview\q4')
 
 def apply_weights(weights, df):
     """
