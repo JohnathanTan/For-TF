@@ -343,7 +343,7 @@ ax2.set_ylabel('Volatility & Return, %')
 
 ax1.set_title("Optimal Portfolio Allocation by Month in FY2016")
 
-fig.savefig("Optimal Portfolio Allocation")
+fig.savefig("Optimal Portfolio Allocation.jpg", dpi=300)
 
 ################################ Print out answers
 print("####################### ANSWERS #######################\n")
