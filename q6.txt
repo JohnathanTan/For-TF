@@ -1,0 +1,51 @@
+#### Final answer first
+The total possible dates conditioned on formats a, b, c, d and without repetition is
+	= 3,652,059 + 3,518,103 + 2,078,247 + 3,652,059
+	= 12,900,468
+	
+#### Counting methodology 
+Starting with the format a "YYYY/MM/DD":
+	Each common (non-leap) year has 365 days.
+	Eacn leap year has 365 + 1 = 366 days.
+	
+	In the format of "YYYY", there can at max (10^4 - 1) or simply 9999 configurations not counting 0000 as a year (i.e. the very first year is 0001).
+	And from 0001 to 9999, there will be 2424 leap years. 
+	
+	Thus,
+		Total possible dates for format a = 9999*365 + 2424 = 3,652,059
+
+Moving on to format b "MM/DD/YYYY":
+	*I assume that the backslash character is not part of a "date".
+	The last 4 digits in format b, "YYYY", will have overlaps with the last 4 digits in format a, "MMDD".
+	The number of possible overlaps will be 365 + 1 = 366.
+	
+	Likewise,
+	The first 4 digits in format b, "MMDD", will have overlaps with the last 4 digits in format a, "YYYY".
+	And, the number of possible overlaps will also be 365 + 1 = 366 in this case.
+	
+	Hence, given format a and without repetition, 
+		Total possible dates for format b = 3,652,059 - 366*366 = 3,518,103
+
+Moving on to format c "DD/MM/YYYY":
+	The last 4 digits in format c, "YYYY", will have overlaps with the last 4 digits in format b, "YYYY".
+	The number of possible overlaps will be 9999.
+	
+	The last 2 digits in format c, "DD", will have overlaps with the last 4 digits in format b, "MM".
+	The number of possible overlaps will be 12 (12 months).
+	
+	Likewise,
+	The 3rd and 4th digits in format c, "MM", will have overlaps with the 3rd and 4th digits in format b, "DD".
+	The number of possible overlaps will be 12 (12 months).
+	
+	Hence, given format a, format b and without repetition, 
+		Total possible dates for format c = 3,518,103 - 12*12*9999 = 2,078,247
+		
+	
+Finally, with format d. "DD (Jan/Feb/Mar/Apr/May/Jun/Jul/Aug/Sept/Oct/Nov/Dec) YYYY",
+	The count for this format is the same as the count for format a alone.
+	We are able to count it that way because format d displays its months in the "MMM" configuration. 
+	This is unique from the formats a, b and c which uses "MM" and thus there will be no overlaps.
+	
+	Hence, given format a, format b, format c and without repetition,
+		Total possible dates = 9999*365 + 2424 = 3,652,059
+		
