@@ -22,6 +22,7 @@ import pandas as pd
 import scipy.stats as st
 from scipy import optimize
 import json
+import os
 ```
 
 The yfinance module had an update ~July 2021. You would need to update it or else it will show a JSONDecodeError when pulling ticker price data.
