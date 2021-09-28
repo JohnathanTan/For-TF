@@ -21,7 +21,6 @@ There are probably more valuation/useful metrics for me to explore but I am sati
 # Specific Activity Valuation
 I think it is useful to also understand what sort of activities are taking place within a Protocol. Understanding them can provide us with additional tools to aid us in valuing Protocol's Token.
 
-| Revenue Streams within the SushiSwap Ecosystem                                                                                                                                                                      |
 | Activity              | Related dApp     | Input Token             | Output Token                                  | Revenue                                                                                        |
 | --------------------  | ---------------- | ----------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | Pair Isolated Lending | Kashi            | Supplying Token         | Specific Kashi Medium-risk Pair (KMP) Token   | Interests in Supplied Token, 10% of Interests and Closed Liquidation each goes to the SushiBar |
@@ -33,8 +32,8 @@ I think it is useful to also understand what sort of activities are taking place
 Let us now look at each specific revenue stream that SushiSwap offers. This analysis aims to figure out the role of SUSHI Token within the Ecosystem which can help us understand the intrinsic value of holding SUSHI.
 
 ## Activities
-"Pair Isolated Lending":
-``` 
+### "Pair Isolated Lending":
+
 Market exists for both xSUSHI and SUSHI to be put up as collateral. Users may wish to borrow on Kashi and put up SUSHI or xSUSHI as collateral to enjoy better interests rates. Kashi operates on an elastic interest rate which targets market utilization of 70% - 80%. Anything lower than the targeted range would mean that interest rates are cheaper. Borrowers might capitalize on this opportunity by buying up SUSHI (and if needed, staking for xSUSHI) to be put up as collateral to meet their needs. 
 
 Additionally, 10% of earned interests and closed liquidations goes to the SushiBar for xSUSHI holders to enjoy. (Price-to-Earnings applies here.)
@@ -44,26 +43,19 @@ Monitoring wallet/asset activity on Kashi can give us a clue on potential demand
 2. to earn extra passive yields stemming from Kashi activity
 
 Should the lending activity increase overtime, yield hunters would want to invest in SUSHI (and stake it for xSUSHI) to enjoy greater earnings.
-```
 
-"Liquidity Provision":
-```
+
+### "Liquidity Provision":
 On the macro scale, we can monitor total token swapping activity and the total LP fees generated. (Price-to-RevStream, Revenue-to-Locked applies here.)
-
 Because of SushiBar, xSUSHI holders also earn a portion of these proceeds in SUSHI. (Price-to-Earnings applies here.)
 
 On the micro scale, there exists swaps for SUSHI and xSUSHI. We can study the LP fees earned in these pairs and compare it with an entirely different LP pairs but with similar risk profiles. If the LP fees earned on SUSHI or xSUSHI pairs are more attractive (due to high trading activity) than the others, it is safe to assume that individuals with a LP strategy will want to provide liquidity in the SUSHI pairs which drives the demand for SUSHI.
-```
 
-"KMP & SLP Farming": 
-```
+### "KMP & SLP Farming": 
 On the macro scale, we can calculate lending and LP related farming yields and compare it with other DeFis. (Price-to-RevStream, Revenue-to-Locked applies here.)
 
-On the micro scale, we can compare SUSHI Token specific Lending & LP yields with another token with a similar risk profile. As stated earlier, should the yields earned be more attractive with SUSHI Tokens, then its natural that the demand for SUSHI to increase until it reaches the market expectation.
-```
+On the micro scale, we can compare SUSHI Token specific Lending & LP yields with another token with a similar risk profile. As stated earlier, should the yields earned be more attractive with SUSHI Tokens, then it is natural that the demand for SUSHI to increase until it reaches the market expectation.
 
-"SUSHI Staking": 
-```
+### "SUSHI Staking": 
 As of the time of writing, apart from additional swap fees earned, governance is the only other function of the xSUSHI token. The only demand factor in this case would be for whales to want to gain more governance rights.
-```
 
