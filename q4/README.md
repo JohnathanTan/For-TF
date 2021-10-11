@@ -6,14 +6,14 @@ With the historical simulation method,
 the VaR of the base portfolio is 1.4259%
 the CVaR of the base portfolio is 2.1256%
 ```
-![VaR Historical Method](https://github.com/JohnathanTan/Interview/blob/main/q4/VaR%20Historical%20Method.jpg)
+![VaR Historical Method](https://github.com/JohnathanTan/For-TF/blob/main/q4/VaR%20Historical%20Method.jpg)
 ```
 Part b.
 With the parametric method,
 the VaR of the base portfolio is 1.4196%
 the CVaR of the base portfolio is 1.7977%
 ```
-![VaR Parametric Method](https://github.com/JohnathanTan/Interview/blob/main/q4/VaR%20Parametric%20Method.jpg)
+![VaR Parametric Method](https://github.com/JohnathanTan/For-TF/blob/main/q4/VaR%20Parametric%20Method.jpg)
 ```
 Part c.
 The optimial portfolio weights are:
