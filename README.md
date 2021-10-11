@@ -7,6 +7,10 @@
 * Q5. Bash script (requires Git)
 * Q6. TXT file
 
+## Outputs
+
+Q5. [script output](https://github.com/JohnathanTan/Interview/blob/main/q5%20output.png)
+
 ## Dependencies 
 
 Python files are written with the version 3.8.10
