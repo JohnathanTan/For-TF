@@ -8,6 +8,13 @@
 * Q6. TXT file
 
 ## Outputs
+Q1.
+Employee Table
+![q1_employee_table](https://github.com/JohnathanTan/For-TF/blob/main/q1_employee_table.PNG)
+Part A output
+![q1_part_a](https://github.com/JohnathanTan/For-TF/blob/main/q1_part_a.PNG)
+Part B output
+![q1_part_b](https://github.com/JohnathanTan/For-TF/blob/main/q1_part_b.PNG)
 
 Q5. ![script output](https://github.com/JohnathanTan/For-TF/blob/main/q5%20output.PNG)
 
