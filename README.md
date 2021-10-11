@@ -9,7 +9,7 @@
 
 ## Outputs
 
-Q5. [script output](https://github.com/JohnathanTan/Interview/blob/main/q5%20output.png)
+Q5. [script output](https://github.com/JohnathanTan/Interview/blob/main/q5%20output.PNG)
 
 ## Dependencies 
 
