@@ -9,7 +9,7 @@
 
 ## Outputs
 
-Q5. [script output](https://github.com/JohnathanTan/For-TF/blob/main/q5%20output.PNG)
+Q5. ![script output](https://github.com/JohnathanTan/For-TF/blob/main/q5%20output.PNG)
 
 ## Dependencies 
 
